@@ -1,0 +1,32 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "Zara",
+            "password": "123",
+            "age": 21,
+            "post_id":7
+        },
+        {
+            "id": 2,
+            "username": "Eshban",
+            "password": "123321",
+            "age": 22,
+            "post_id":3
+        },
+        {
+            "id": 3,
+            "username": "Fizza",
+            "password": "1123",
+            "age": 19,
+            "post_id":92
+        },
+        {
+            "id": 4,
+            "username": "Fraz",
+            "password": "222",
+            "age": 29,
+            "post_id":1
+        }
+    ]
+}

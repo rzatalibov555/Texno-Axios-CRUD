@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "username": "Zara",
+      "password": "000",
+      "age": 211,
+      "id": 1
+    }
+  ],
+  "actors": [
+    {
+      "id": 1,
+      "name": "Tom",
+      "surname": "Cruise",
+      "img": "profile_photo.jpg",
+      "movie_id":2
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "name": "Mission Impossible 2",
+      "genre": "Action",
+      "date": 2006,
+      "poster_img": "https://m.media-amazon.com/images/I/91nhwMFYbOL._AC_UF894,1000_QL80_.jpg",
+      "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam officia veniam beatae aperiam natus a nulla dolorum ullam fuga. Beatae voluptas praesentium mollitia. Velit unde quasi earum iste, voluptatem atque. Ducimus voluptatum nostrum consequatur impedit odio, expedita voluptate quod tempore atque, maxime sed non. Molestiae debitis unde, perferendis architecto vitae incidunt, veritatis sed dolores et quam cumque velit fugit maxime? Nihil cupiditate nulla, assumenda aliquid numquam quod molestiae officiis unde distinctio tempora quaerat, eaque culpa similique nisi ratione dolorum sunt architecto! Voluptate iure neque quidem tempora alias, quos consequatur aperiam. Est harum doloremque officia ipsam aperiam odit, atque ex animi, dolores repudiandae in, explicabo soluta qui. Aliquam ipsa aliquid quia, ex dicta tenetur quae expedita libero numquam commodi non quos. Quia quis, iste consequatur ducimus harum minus nisi inventore eveniet odio velit, autem iure nobis, dolorem ratione hic commodi vel aliquid reprehenderit et delectus in odit. Animi, nulla. Maiores, error!"
+    },
+    {
+      "id": 2,
+      "name": "Mission Impossible 1",
+      "genre": "Action",
+      "date": 2002,
+      "poster_img": "https://m.media-amazon.com/images/I/718RVx84VNL._AC_UF894,1000_QL80_.jpg",
+      "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam officia veniam beatae aperiam natus a nulla dolorum ullam fuga. Beatae voluptas praesentium mollitia. Velit unde quasi earum iste, voluptatem atque. Ducimus voluptatum nostrum consequatur impedit odio, expedita voluptate quod tempore atque, maxime sed non. Molestiae debitis unde, perferendis architecto vitae incidunt, veritatis sed dolores et quam cumque velit fugit maxime? Nihil cupiditate nulla, assumenda aliquid numquam quod molestiae officiis unde distinctio tempora quaerat, eaque culpa similique nisi ratione dolorum sunt architecto! Voluptate iure neque quidem tempora alias, quos consequatur aperiam. Est harum doloremque officia ipsam aperiam odit, atque ex animi, dolores repudiandae in, explicabo soluta qui. Aliquam ipsa aliquid quia, ex dicta tenetur quae expedita libero numquam commodi non quos. Quia quis, iste consequatur ducimus harum minus nisi inventore eveniet odio velit, autem iure nobis, dolorem ratione hic commodi vel aliquid reprehenderit et delectus in odit. Animi, nulla. Maiores, error!"
+    }
+  ]
+}
