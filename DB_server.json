@@ -4,7 +4,8 @@
       "username": "Zara",
       "password": "000",
       "age": 211,
-      "id": 1
+      "id": 1,
+      "img": ""
     }
   ],
   "actors": [
@@ -12,7 +13,7 @@
       "id": 1,
       "name": "Tom",
       "surname": "Cruise",
-      "img": "profile_photo.jpg",
+      "img": "https://www.foto.com/profile_photo.jpg",
       "movie_id":2
     }
   ],

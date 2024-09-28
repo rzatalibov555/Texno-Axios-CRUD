@@ -1,12 +1,24 @@
 
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
+// import axios from 'axios';
+// import { BASE_URL } from './config';
 import './App.css';
-import axios from 'axios';
-import { BASE_URL } from './config';
-
+// import { useState } from 'react';
+import Card from './components/Card/Card';
+import Nav from './components/Nav/Nav';
 
 
 function App() {
+
+  return(
+    <>
+    <Nav/>
+    <Card/>
+    </>
+    
+  )
+
+
 
   // const [userId, setUserId] = useState('');
 
@@ -89,30 +101,30 @@ function App() {
 // =======================================================================
   
 
-  const get_user = async (user_id) => {
-    const response = await axios.get(`${BASE_URL}/users/${user_id}`)
-    return response.data.post_id
-  }
+  // const get_user = async (user_id) => {
+  //   const response = await axios.get(`${BASE_URL}/users/${user_id}`)
+  //   return response.data.post_id
+  // }
 
-  const get_post_id = async(post_id) => {
-    const response = await axios.get(`https://jsonplaceholder.typicode.com/posts/${post_id}`)
-    return response
-  }
+  // const get_post_id = async(post_id) => {
+  //   const response = await axios.get(`https://jsonplaceholder.typicode.com/posts/${post_id}`)
+  //   return response
+  // }
 
-  const get_post = async() => {
-      const get_user_post_id = await get_user(3)
+  // const get_post = async() => {
+  //     const get_user_post_id = await get_user(3)
       
-      const post_data = await get_post_id(get_user_post_id)
-      console.log(post_data.data)
-  }
+  //     const post_data = await get_post_id(get_user_post_id)
+  //     console.log(post_data.data)
+  // }
 
-  useEffect(()=>{
-    // get_user(3)
-    // get_post_id(92)
+  // useEffect(()=>{
+  //   // get_user(3)
+  //   // get_post_id(92)
 
-    get_post()
+  //   get_post()
 
-  },[])
+  // },[])
 
 
 
@@ -147,53 +159,53 @@ function App() {
   //   delete_data(userId);
   // };
 
-  return (
-    <div>
-      {/* <h2>Create New User</h2>
-      <input
-        type="text"
-        placeholder="Username"
-        value={userData.username}
-        onChange={(e) => setUserData({ ...userData, username: e.target.value })}
-      />
-      <input
-        type="password"
-        placeholder="Password"
-        value={userData.password}
-        onChange={(e) => setUserData({ ...userData, password: e.target.value })}
-      />
-      <input
-        type="number"
-        placeholder="Age"
-        value={userData.age}
-        onChange={(e) => setUserData({ ...userData, age: e.target.value })}
-      />
-      <button onClick={handleCreateUser}>Create User</button>
+  // return (
+  //   <div>
+  //     {/* <h2>Create New User</h2>
+  //     <input
+  //       type="text"
+  //       placeholder="Username"
+  //       value={userData.username}
+  //       onChange={(e) => setUserData({ ...userData, username: e.target.value })}
+  //     />
+  //     <input
+  //       type="password"
+  //       placeholder="Password"
+  //       value={userData.password}
+  //       onChange={(e) => setUserData({ ...userData, password: e.target.value })}
+  //     />
+  //     <input
+  //       type="number"
+  //       placeholder="Age"
+  //       value={userData.age}
+  //       onChange={(e) => setUserData({ ...userData, age: e.target.value })}
+  //     />
+  //     <button onClick={handleCreateUser}>Create User</button>
 
-      <h2>Update User</h2>
-      <input
-        type="number"
-        placeholder="User ID"
-        value={userId}
-        onChange={(e) => setUserId(e.target.value)}
-      />
-      <input
-        type="number"
-        placeholder="New Age"
-        value={updatedUserData.age}
-        onChange={(e) => setUpdatedUserData({ age: e.target.value })}
-      />
-      <button onClick={handleUpdateUserPut}>Update User (PUT)</button>
-      <button onClick={handleUpdateUserPatch}>Update User (PATCH)</button>
+  //     <h2>Update User</h2>
+  //     <input
+  //       type="number"
+  //       placeholder="User ID"
+  //       value={userId}
+  //       onChange={(e) => setUserId(e.target.value)}
+  //     />
+  //     <input
+  //       type="number"
+  //       placeholder="New Age"
+  //       value={updatedUserData.age}
+  //       onChange={(e) => setUpdatedUserData({ age: e.target.value })}
+  //     />
+  //     <button onClick={handleUpdateUserPut}>Update User (PUT)</button>
+  //     <button onClick={handleUpdateUserPatch}>Update User (PATCH)</button>
 
-      <h2>Delete User</h2>
-      <button onClick={handleDeleteUser}>Delete User</button>
+  //     <h2>Delete User</h2>
+  //     <button onClick={handleDeleteUser}>Delete User</button>
 
-      <h2>Get Users</h2>
-      <button onClick={get_allUsers}>Get All Users</button>
-      <button onClick={() => get_single_user(userId)}>Get Single User</button> */}
-    </div>
-  );
+  //     <h2>Get Users</h2>
+  //     <button onClick={get_allUsers}>Get All Users</button>
+  //     <button onClick={() => get_single_user(userId)}>Get Single User</button> */}
+  //   </div>
+  // );
 }
 
 export default App;

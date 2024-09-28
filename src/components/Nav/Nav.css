@@ -1,0 +1,8 @@
+.nav{
+    width: 100%;
+    min-height: 80px;
+    background: grey;
+    float: left;
+    font-size: 40px;
+    color: red;
+}
