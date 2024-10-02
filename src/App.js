@@ -40,7 +40,7 @@ function App() {
   // const create_user = async (new_user) => {
   //   const response = await axios.post(`${BASE_URL}/users`, new_user)
   //   console.log(response)
-  // }
+   // }
 
   // const update_data_put = async (user_id, update_user_data) => {
   //   const response = await axios.put(`${BASE_URL}/users/${user_id}`, update_user_data)
